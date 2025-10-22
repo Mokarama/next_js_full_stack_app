@@ -2,7 +2,7 @@
 import "./globals.css";
 import Navbar from "./../component/Navbar/Navbar";
 import Footer from "./../component/footer/Footer";
-
+import { ThemeProvider } from "../../context/ThemeContext";
 
 export default function RootLayout({
   children,
@@ -13,10 +13,13 @@ export default function RootLayout({
     <html lang="en">
       <body className="containerCard"
       >
-        <Navbar />
-        {children}
-        <Footer />
+        <ThemeProvider>
+          <Navbar />
+          {children}
+          <Footer />
+        </ThemeProvider>
       </body>
+      
     </html>
   );
 }

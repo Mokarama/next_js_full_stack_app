@@ -3,6 +3,7 @@
 
 import Link from "next/link";
 import styles from './page.module.css'
+import DarkMoodToggle from './../DarkMoodToggle/DarkMoodToggle';
 
 
 const links =[
@@ -45,6 +46,7 @@ export default function Navbar() {
         <Link  href={"/"} className={styles.logo}>Shanta</Link>
 
         <div className={styles.links}>
+            <DarkMoodToggle/>
           {
             links.map(link=>(
                 <Link key={link.id} href={link.url} className={styles.link}>{link.title}</Link>
