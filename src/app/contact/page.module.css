@@ -22,7 +22,7 @@
 .image{
     object-fit:contain;
     animation:  move 3s infinite ease alternate;
-
+    border-radius: 15px;
 }
 @keyframes move {
     from{

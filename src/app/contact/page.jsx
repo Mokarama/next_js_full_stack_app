@@ -1,6 +1,7 @@
 import Button from '../../component/Button/Button'
 import styles from './page.module.css'
 import Image from 'next/image'
+import contact from '../../../public/contact.jpg'
 
 export default function Contact() {
   return (
@@ -11,7 +12,7 @@ export default function Contact() {
     <div className={styles.content}>
         {/* Image */}
        <div className={styles.imgContainer}>
-      <Image src="" className={styles.image} />
+      <Image height={500} width={500} src={contact} className={styles.image} />
        </div>
 
    {/* //form container */}

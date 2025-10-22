@@ -1,7 +1,7 @@
 
 import styles from './page.module.css';
 import Image from "next/image";
-import Hero from '../../public/hero.jpg'
+import Hero from '../../public/environment2.jpg'
 import Button from '../component/Button/Button';
 export default function Home() {
   return (
