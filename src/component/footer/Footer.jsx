@@ -10,7 +10,7 @@ export default function Footer
   return (
     <>
         <div className={styles.container}>
-            <div>2025 Lamamia. All rights reserved.</div>
+            <div>©2025 Lamamia. All rights reserved.</div>
             <div className={styles.social}>
               
                  <Image  className={styles.icon} src="/facebook.png" width={20} height={20}  alt="facebook"/>
