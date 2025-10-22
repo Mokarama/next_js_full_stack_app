@@ -18,6 +18,7 @@
     flex: 1;
     height: 500px;
    position: relative;
+
 }
 .image{
     object-fit:contain;
@@ -49,4 +50,31 @@
     font-size: 20px;
     font-weight: bold;
     border-radius: 5px;
+}
+
+
+
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  
+
+.title{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.content{
+    flex-direction: column;
+}
+
+
+.image{
+    width: 100%;
+}
+
+.form{
+    width: 100%;
+}
+
 }

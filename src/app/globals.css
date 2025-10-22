@@ -8,8 +8,8 @@ html,
 body{
   max-width: 100vw;
   /* overflow: hidden; */
-  /* background-color: #0b061e;
-  color: #bbb; */
+  background-color: #0b061e;
+  color: #bbb;
 }
 a{
   text-decoration: none;
@@ -26,11 +26,11 @@ a{
 }
 
 
-body.light{
+.light{
   background-color:white ;
   color: black;
 }
-body.dark{
+.dark{
   background-color: #0b061e;
   color: #bbb;
 }
